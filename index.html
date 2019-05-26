@@ -4,12 +4,15 @@
   <title>website</title>
   <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet" type="text/css" href="arrange.css">
+<link rel="stylesheet" type="text/css" href="slick.css" />
+<link rel="stylesheet" type="text/css" href="slick-theme.css" />
+
 </head>
 <body>
 <!-- header部分です -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">株式会社○○▲▲</a>
+      <a class="navbar-brand" href="#">(株)UNITED </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -17,10 +20,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#specialty">Our Specialty</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#work">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accsess">Access</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">NEWS</a>
+          </li><li class="nav-item">
+            <a class="nav-link" href="#form">Form</a>
           </li>
         </ul>
       </div>
@@ -30,21 +41,27 @@
 
 
 <!-- トップスライド部分 -->
+
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="top-word">
+    <h1 id="ofice">UNITED</h1>
+    <h4 id="ofice1">MAKE YOUR DRESM AND STRONG</h2>
+    <p id="ofice2">理想を力強くサポートします</p>
+    </div>
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner top">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="img/whitehouse.jpeg" alt="First slide">
+        <img class="d-block w-100" src="img/top1.png" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/whitehouse.jpeg" alt="Second slide">
+        <img class="d-block w-100" src="img/top2.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img/whitehouse.jpeg" alt="Third slide">
+        <img class="d-block w-100" src="img/top3.png" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -58,42 +75,191 @@
   </div>
 <!-- トップスライド部分終わり -->
 
-<!-- feature部分 -->
-<!-- feature部分終わり -->
+<!-- unitedの紹介 -->
+<div class="container  mt-5">
+  <h2 class="title fadein" id="specialty">Introduce</h2>
+  <h2 id="small" class="fadein">-UNITEDについて-</h2>
+  <div class="card mb-3" style="max-width: 1400px; background-color:#F0F8FF;">
+    <div class="row no-gutters">
+      <div class="col-md-6 fadein">
+        <img src="img/into1.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-md-6 fadein">
+        <div class="card-body">
+          <h5 class="card-title">コンテンツマーケティング事業</h5>
+          <p class="card-text"><small class="text-muted">Content marketing</small></p>
+          <p class="card-text">UNITEDは設立以来、累計300社に及ぶ企業にwebマーケティング支援をご提供。特にSEOサービスでは高い実績を出してきました。 その経験を基に、自社で運営する記事作成サービスを活用して、クライアントの商品・サービスの価値を世の中に伝えられるコンテンツマーケティングを実現してまいります。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 1400px; background-color:#F0F8FF;">
+    <div class="row no-gutters">
+      <div class="col-md-6 fadein">
+        <div class="card-body">
+          <h5 class="card-title">メディア事業</h5>
+          <p class="card-text"><small class="text-muted">Media</small></p>
+          <p class="card-text">Tユーザーがメディアのつくり手となり、世の中へ発信できるような場を創造していきます。 
+また、ユーザーにとって価値ある情報を提供し、人生をトータルサポートできるメディアを展開していきます。</p>
+        </div>
+      </div>
+      <div class="col-md-6 fadein">
+        <img src="img/into2.jpg" class="card-img" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- unitedの紹介終わり -->
+
+<!-- Our Specialty部分 -->
+<div class="container mt-5">
+  <h2 class="title fadein" id="specialty">Our Specialty</h2>
+  <h2 id="small" class="fadein">-私たちの得意分野-</h2>
+ <div class="card-deck fadein">
+    <div class="card">
+      <img class="card-img-top" src="img/work1.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">BtoBサイト制作</h5>
+        <p class="card-text"><small class="text-muted">BtoB Site Development
+</small></p>
+        <p class="card-text">BtoBに特化したWebサイトを制作。デザインのみならず、マーケティング企画、コンテンツ制作、効果測定や改善まで一貫して提案します。</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/photo2.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">業務システムUX/UIデザイン</h5>
+        <p class="card-text"><small class="text-muted">Web Application UX/UI Design</small></p>
+        <p class="card-text">業務システムなどのUX/UIデザイン。ユーザ調査やカスタマージャーニー、プロトタイピングなどを駆使し、ユーザ体験に沿ったUIを実現します。</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/photo3.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">採用サイト制作</h5>
+        <p class="card-text"><small class="text-muted">Recruiting Site Development</small></p>
+        <p class="card-text">応募者の行動動線やペルソナを正しく描き、応募者の心をとらえるコンテンツを中心とした、採用戦略の要となりうる採用サイトを提案します。</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="img/work2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">コーポレートサイト制作</h5>
+        <p class="card-text"><small class="text-muted">Corporate Site Development</small></p>
+        <p class="card-text">様々な業界・業態・規模のコーポレートサイト制作経験を活かし、ビジネスに貢献しうる最適なコーポレートサイトを企画・制作します。</p>
+      </div>
+    </div>
+  </div>
+  <div class="mmm fadein">
+      <button id="btn" type="submit" class="btn btn-primary ">詳しく見る</button>
+    </div>
+</div>
+<!-- Our Specialty部分終わり -->
+
+<!-- our work部分 -->
+<div class="container mt-5">
+  <h2 class="title fadein" id="work">Our Work</h2>
+  <h2 id="small" class="fadein">-私たちの実績-</h2>
+  <ul class="autoplay fadein"> <!--classは任意の名前でOK-->
+    <li><a href="https://amana.jp/company/groupcompanies/amanadesign.html
+"><img src="img/amana.png"></a></li>
+    <li><a href="https://at21.jp/corporate/"><img src="img/atras.PNG"></a></li>
+    <li><a href="https://ir.gmocloud.com/"><img src="img/gmo.jpg"></a></li>
+    <li><a href="https://www.gankofood.co.jp"><img src="img/ganko.jpg"></a></li>
+    <li><a href="https://www.pinterest.jp/pin/493073859178034371"><img src="img/genkiti.png"></a></li>
+    <li><a href="www.hakutsuru.co.jp"><img src="img/hakuturu.gif"></a></li>
+    <li><a href="https://www.asics.com/jp/ja-jp/メンズ/c/ja10000000"><img src="img/asics.jpg"></a></li>
+    <li><a href="https://citizen.jp/s"><img src="img/citizen.jpg"></a></li>
+    <li><a href="https://www.rizapgroup.com"><img src="img/rizap.jpg"></a></li>
+    <li><a href="https://www.m-chemical.co.jp"><img src="img/mitubisi.jpg"></a></li>
+    <li><a href="https://nexseed.net/"><img src="img/nexseed.jpg"></a></li>
+  </ul>
+</div>
+<!-- our work部分終わり -->
+
 
 <!-- accsess部分 -->
 <div class="container mt-5">
-<h2>Access</h2>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1962.6615841606128!2d123.9053184!3d10.316001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9993fd20b1f57%3A0xb16db4ee39975718!2zTmV4U2VlZCDmnKzmoKE!5e0!3m2!1sja!2sph!4v1558683230074!5m2!1sja!2sph" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <h2 class="title fadein" id="access">Access</h2>
+  <div id="jqs-12">
+    <button  type="submit" class="btn fadein" style="width: 100%;">↓open↓</button>
+      <div class="google_map">
+      <p><iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1962.6615841606128!2d123.9053184!3d10.316001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9993fd20b1f57%3A0xb16db4ee39975718!2zTmV4U2VlZCDmnKzmoKE!5e0!3m2!1sja!2sph!4v1558683230074!5m2!1sja!2sph" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+      </div>
+　</div>
 </div>
 <!-- access部分 -->
 
+<!-- New部分 -->
+<div class="container mt-5">
+  <h2 class="title fadein" id="news">NEWS</h2>
+    <div class="news row mt-5 fadein">
+     <div class="col-4"><p><span class="badge badge-success">お知らせ</span>  2019/05/25</p></div>
+     <div class="col-8"><a href="#">2020年卒新規採用・募集枠について。</a></div>
+    </div>
+    <div class="news row fadein">
+     <div class="col-4"><p><span class="badge badge-success">お知らせ</span>  2019/05/23</p></div>
+     <div class="col-8"><a href="#">ブログを更新しました。</a></div>
+    </div>
+    <div class="news row fadein">
+     <div class="col-4"><p><span class="badge badge-primary">注目！</span> 2019/05/20</p></div>
+     <div class="col-8"><a href="#">2019/05/18 「バイキング」で弊社が取り上げられました。</a></div>
+    </div>
+    </div>
+    <div class="mmm fadein">
+      <button id="btn" type="submit" class="btn btn-primary ">ニュース一覧を見る</button>
+    </div>
+    </div>
+<!-- New部分終わり -->
+ 
+
 <!-- フォーム部分 -->
 <div class="container mt-5">
-  <h2>Form</h2>
-  <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">送信</button>
-</form>
+  <h2 class="title fadein" id="form">Form</h2>
+    <form>
+    <div class="form-group row mt-5 fadein">
+      <label for="exampleInputEmail1" class="col-4">名前</label>
+      <input type="email" class="form-control col-8" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Write your name">
+      
+    </div>
+    <div class="form-group row fadein">
+      <label for="exampleInputPassword1" class="col-4">メールアドレス</label>
+      <input type="password" class="form-control col-8" id="exampleInputEmail11" placeholder="Enter email">
+    </div>
+    <div class="form-group row fadein">
+      <label for="exampleInputPassword1" class="col-4">メッセージ</label>
+      <textarea type="text" class="form-control col-8" id="exampleInputPassword1" ></textarea>
+    </div>
+    <div class="mmm">
+        <button id="btn" type="submit" class="btn btn-primary ">送信</button>
+      </div>
+  </form>
 </div>
 <!-- フォーム部分終わり -->
+
+<!-- footer部分 -->
+<footer>
+  <div class="container mt-5">
+    <p>(C)UNITED</p>
+    <p id="page-top"><a href="#wrap">PAGE TOP</a></p>
+  </div>
+</footer>
+<!-- footer部分おわり -->
+
+
+
+
 
 <!-- スクリプト部分 -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script> 
+<script type="text/javascript" src="slick.min.js"></script>
+<script type="text/javascript" src="slick.js"></script> 
+
 <!-- スクリプト部分終わり -->
+
 </body>
 </html>

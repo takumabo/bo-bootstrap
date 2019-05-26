@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  /*margin-bottom: 1rem;*/
 }
 
 abbr[title],
@@ -2379,7 +2379,7 @@ textarea.form-control {
   display: inline-block;
   font-weight: 400;
   color: #212529;
-  text-align: center;
+  /*text-align: center;*/
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4559,7 +4559,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  /*border: 1px solid rgba(0, 0, 0, 0.125);*/
   border-radius: 0.25rem;
 }
 
